@@ -1,0 +1,134 @@
+li{
+  font-size: 4vh;
+  margin-top: 0px;
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.0;
+  text-align: center;
+  font-size: 20px;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #424a46;
+  text-align: center;
+  padding: 15px 95px;
+  text-decoration: none;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:#fa8072;
+}
+
+ul{ 
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+a:hover{ 
+  background-color:  #5A9789;
+  cursor: pointer;
+}
+
+.info {
+   text-align: center; 
+}
+
+h1{
+  color: #C8DAAC;
+  font-family: impact; 
+  text-align: center;
+  font-size: 100px;
+  line-height: 0.5;
+}
+
+.subheading{
+  color: #fa8072;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 60px;
+  line-height: 0.0;
+}
+
+h2{
+  color:#fa8072;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size:45px;
+  line-height: 0.3;
+}
+
+.info{
+  color:black;
+  font-size: 40px
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-color: black;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("images/cayoarenawater.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about{
+  text-align: left;
+  position: absolute;
+}
+
+
+.images{
+  float: right;
+  margin:0%;
+}
+
+
+ul li{
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+  padding: 0.05px;
+  background-color: #fa8072;
+  color: black
+}
+
+.mail{
+  color:black;
+  background-color: #fa8072;
+
+}
+
+.ftr{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  white-space: pre-wrap;
+  font-weight: bold;
+}
+
+
+

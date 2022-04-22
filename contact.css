@@ -1,0 +1,105 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+li{
+  list-style-type: none;
+  margin: 0px;
+  font-size: 5vh;
+  margin-top: 0px;
+}
+ a{
+  text-decoration: none;
+  color:#C8DAAC;
+  padding: 1vw;
+  font-family:"Franklin Gothic Medium","Arial Narrow", Arial, sans-serif; 
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #FA8072;
+  opacity:0.8;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #424a46;;
+  text-align: center;
+  padding: 14px 95px;
+  text-decoration: none;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+body{
+  background-image: url("images/cayoarena.jpg");
+ background-color: #000000;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: auto;
+}
+
+a:hover{ 
+  background-color: #5A9789;
+}
+
+p{
+  color: gray;
+  padding: 6px;
+  margin: 3px;
+  
+}
+h1{
+  color: white;
+}
+
+input[type=text],textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#comments{
+height:160px; 
+width: 100%; 
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+  background-color:  #424a46;;
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2B436E;
+}
+
+.contact{
+  background-color: #FA8072;
+  opacity: 0.8;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  font-family:"Franklin Gothic Medium","Arial Narrow", Arial, sans-serif;
+  color:white;
+}

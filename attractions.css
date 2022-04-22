@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding:0;
+}
+ul{
+  text-decoration: none;
+  list-style:none ;
+}
+li{ margin: 20px;
+  font-size: 4vh;
+  margin-top: 0px;
+  margin: 0px
+  }
+  
+  a{
+  text-decoration: none;
+  color:black;
+  padding: 1vw;
+  font-family:"Franklin Gothic Medium","Arial Narrow", Arial, sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #FA8072;
+  opacity:0.8;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #424a46;;
+  text-align: center;
+  padding: 15px 95px;
+  text-decoration: none;
+}
+body {
+ background-image: url("images/cayoarenafish.jpg");
+ background-position: center;
+ background-size: cover;
+ background-color: #000000;
+ 
+}
+a:hover{ 
+  background-color:#5A9789 ;
+  cursor: pointer;
+}
+p{
+  color: white;
+  padding: 3px;
+  margin: 3px;
+  text-align: center;
+  position:relative;
+  font-family:Marker Felt;
+}
+ 
+h1{
+  color: white;
+}
+
+div.container {
+  text-align: justify;
+  padding: 10px 20px;
+  position: relative;
+  width: 43%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #C8DAAC;
+  
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family:"Jazz LET";
+  text-align: justify;
+}
